@@ -22,6 +22,7 @@ create a directory 'apis' and switch to the directory
     % cd apis 
 
 create a go mod file as shown 
+
     % go mod init github.com/go-tutorial/apps
     go: creating new go.mod: module github.com/go-tutorial/apps
 
@@ -31,12 +32,12 @@ Go to the go.mod in the root directory of the project
 
 create the mapping to the local module in go.mod
 
-  replace github.com/rajamanohar/Go-Tutorial/apis => ./apis
+    replace github.com/rajamanohar/Go-Tutorial/apis => ./apis
 
 and then run 
 
-% go mod tidy 
+    % go mod tidy 
 
 It will create the requirement in go.mod file as shown below
 
-require github.com/rajamanohar/Go-Tutorial/apis v0.0.0-00010101000000-000000000000
+    require github.com/rajamanohar/Go-Tutorial/apis v0.0.0-00010101000000-000000000000

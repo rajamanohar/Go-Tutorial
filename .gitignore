@@ -1,5 +1,7 @@
 **/*
 !**/*.go
+!go.mod
+
 # Binaries for programs and plugins
 *.exe
 *.exe~

@@ -1,5 +1,8 @@
 {
     "gopls": {
         "build.experimentalWorkspaceModule": true,
+    },
+    "go.toolsEnvVars": {
+        "GOPRIVATE": ""
     }
 }

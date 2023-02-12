@@ -14,7 +14,7 @@ In case you want to build the program and execute the binaries
 
     % ./helloworld
 
-How to create modules in Go
+## How to create modules in Go
 
 create a directory 'apis' and switch to the directory 
 
@@ -56,4 +56,3 @@ The above external go module dependecy requires proxy from golang.org and github
 Then, create dependencies in the main go.mod and run go mod tidy
     % go run .
     olleH
-
